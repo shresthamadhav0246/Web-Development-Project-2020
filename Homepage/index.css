@@ -1,0 +1,49 @@
+body{
+
+}
+.nav{
+    background-color: #000;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 1rem;
+
+
+}
+.iteam{
+    color:antiquewhite;
+    border-bottom: 1px solid #222;
+    padding: 5px 0;
+    font-weight: 500;
+    font-size: 1.5rem;
+    transition: color 3s;
+
+
+}
+.icon{
+    color:antiquewhite;
+border: 1px solid antiquewhite;
+border-bottom-width: 3rem;
+border
+    
+    
+} 
+img{
+    width: 100px;
+    height:100px;
+    object-fit : cover;
+
+}
+.list{
+width:100%;
+list-style: none;
+color: antiquewhite;
+}
+.iteam >a{
+    color: #d2d0db;
+
+    
+}
+.iteam >a:hover{
+    color:#fff;
+}
