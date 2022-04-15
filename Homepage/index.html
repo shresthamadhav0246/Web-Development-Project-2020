@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Madhab</title>
+    <title>Document</title>
   </head>
   <link rel="stylesheet" href="index.css" />
   <script
@@ -13,7 +13,110 @@
   ></script>
   <body>
     <nav class="nav">
-      <i class="fa-solid fa-bars"></i>
+      <a href="/"><img src="logo.png" alt="" /></a>
+      <input type="checkbox" name="collapse" id="toggle" checked="checked" />
+      <label for="toggle" class="checkbtn"
+        ><i class="fa-solid fa-bars"></i>
+      </label>
+      <ul class="list">
+        <li class="nav__item"><a href="#">Portfolio</a></li>
+        <li class="nav__item"><a href="#">Blog</a></li>
+        <li class="nav__item"><a href="#">Site Report</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
     </nav>
+    <main>
+      <section class="block block--dark block--skewed-left">
+        <div class="grid grid--cols-2">
+          <header class="header">
+            <h1 class="contain__heading">Hi, I am Madhab</h1>
+            <h2 class="contain__second__heading">Make Your Product Happen</h2>
+            <p class="contain">Deploy your websites in less time</p>
+            <a href="#" class="btn">Get Started</a>
+          </header>
+          <img class="main__image" src="main.jpg" alt="" />
+        </div>
+      </section>
+    </main>
+    <section class="domain__block">
+      <h3 class="domain__heading">Starting just &pound;500</h3>
+      <p class="domain__contain">
+        If you want to make a website in less time and low cost.we are here...
+      </p>
+      <div class="input">
+        <input
+          class="domain"
+          type="text"
+          placeholder="Enter domain name here"
+        />
+        <button class="btn__second">
+          <i class="fa-solid fa-magnifying-glass"></i> Search
+        </button>
+      </div>
+    </section>
+    <div class="grid grid--cols-2">
+      <img class="image__madhab" src="madhab1.png" alt="" />
+      <div class="discribe">
+        Hi, I am Madhab Shrestha. I am currently studying Software Engineering
+        at University of Northampton. I have an multiple skills about websites
+        development such as <i>HTML5,CSS,Java and Python</i>. I have a lots of
+        experience about websites development.I am flexible in my working hours,
+        being able to work evenings and weekends.I am always energetic and eager
+        to learn new skills.I am a dependable person who is great at time
+        management.
+      </div>
+    </div>
+
+    <footer class="footer">
+      <section class="accordion">
+        <input type="checkbox" name="collapse" id="handle1" checked="checked" />
+        <h2 class="handle">
+          <label for="handle1">Products</label>
+        </h2>
+        <div class="content">
+          <ul class="footer__heading">
+            <li class="footer__content">World Press</li>
+            <li class="footer__content">Web Hosting</li>
+            <li class="footer__content">World Hosting</li>
+            <li class="footer__content">Beta</li>
+            <li class="footer__content">Icon2020</li>
+          </ul>
+        </div>
+      </section>
+      <section class="accordion">
+        <input type="checkbox" name="collapse2" id="handle2" />
+        <h2 class="handle">
+          <label for="handle2">Company</label>
+        </h2>
+        <div class="content">
+          <ul class="footer__content">
+            <li class="footer__content">About</li>
+            <li class="footer__content">Blog</li>
+            <li class="footer__content">Community</li>
+            <li class="footer__content">Carees</li>
+            <li class="footer__content">Affilates</li>
+            <li class="footer__content">NEWS</li>
+          </ul>
+        </div>
+      </section>
+      <section class="accordion">
+        <input type="checkbox" name="collapse2" id="handle3" />
+        <h2 class="handle">
+          <label for="handle3">Support</label>
+        </h2>
+        <div class="content">
+          <ul class="footer__content">
+            <li class="footer__content">Contact</li>
+            <li class="footer__content">ABC Domain</li>
+            <li class="footer__content">Web World</li>
+            <li class="footer__content">Web Hosting</li>
+          </ul>
+        </div>
+      </section>
+      <section class="footer__logo">
+        <img src="logo.png" alt="" />
+        <p class="footer__copyright">Copyright 2020 Madhab Shrestha</p>
+      </section>
+    </footer>
   </body>
 </html>
