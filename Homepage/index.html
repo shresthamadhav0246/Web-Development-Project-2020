@@ -7,32 +7,36 @@
     <title>Document</title>
   </head>
   <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="contact.css" />
+  <link rel="stylesheet" href="blog.css" />
+
   <script
     src="https://kit.fontawesome.com/27d4af28c8.js"
     crossorigin="anonymous"
   ></script>
   <body>
     <nav class="nav">
-      <a href="/"><img src="logo.png" alt="" /></a>
+      <a href="/"><img src="logo.png" alt="" class="logo" /></a>
       <input type="checkbox" name="collapse" id="toggle" checked="checked" />
       <label for="toggle" class="checkbtn"
         ><i class="fa-solid fa-bars"></i>
       </label>
       <ul class="list">
-        <li class="nav__item"><a href="#">Portfolio</a></li>
-        <li class="nav__item"><a href="#">Blog</a></li>
+        <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
+        <li class="nav__item"><a href="blog.html">Blog</a></li>
         <li class="nav__item"><a href="#">Site Report</a></li>
-        <li class="nav__item"><a href="#">Contact</a></li>
+        <li class="nav__item"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <main>
       <section class="block block--dark block--skewed-left">
         <div class="grid grid--cols-2">
-          <header class="header">
+          <header class="header__main">
             <h1 class="contain__heading">Hi, I am Madhab</h1>
             <h2 class="contain__second__heading">Make Your Product Happen</h2>
             <p class="contain">Deploy your websites in less time</p>
-            <a href="#" class="btn">Get Started</a>
+            <a href="#" class="btn__main">Get Started</a>
           </header>
           <img class="main__image" src="main.jpg" alt="" />
         </div>
@@ -43,13 +47,13 @@
       <p class="domain__contain">
         If you want to make a website in less time and low cost.we are here...
       </p>
-      <div class="input">
+      <div class="search">
         <input
           class="domain"
           type="text"
           placeholder="Enter domain name here"
         />
-        <button class="btn__second">
+        <button class="btn__search">
           <i class="fa-solid fa-magnifying-glass"></i> Search
         </button>
       </div>

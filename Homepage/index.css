@@ -22,7 +22,7 @@
     align-items: center;
 
   }
-  img{
+.logo{
       width:90px;
       height:90px;
   }
@@ -120,7 +120,7 @@
   .block--dark{
     background-color: #000;
   }
- .header{
+ .header__main{
    background-color: #000;
    height:100vh;
    text-align: left;
@@ -136,8 +136,10 @@
    color:#faf8f5;
  }
  .contain__second__heading{
+   color:#faf8f5 ;
    font-size: 2rem;
-   padding-left: 1.4rem;
+   padding-left: 2rem;
+   margin-top: 2rem;
  }
  .contain{
    font-size: 1.4rem;
@@ -148,7 +150,7 @@
  }
 
 
- .btn{
+ .btn__main{
   border-radius: 40px;
   border: 1px solid #ff3400;
   background-color: #ff3400;
@@ -165,7 +167,7 @@
   color:#b9c3cf;
   margin-left: 2.5rem;
  }
- .btn:hover{
+ .btn__main:hover{
    background-color: #ec3000;
  }
  .block--skewed-left{
@@ -188,7 +190,7 @@
   
 }
 /*domain block*/
-.input{
+.search{
   border:1px solid #ccc;
   border-radius: 40px;
   display:flex;
@@ -202,7 +204,7 @@ outline: 0;
 flex-grow: 1;
 padding-left: 3rem;
 }
-.btn__second{
+.btn__search{
   border: 1px solid #ccc;
   border-radius: 30px;
   background-color: #ff3400;

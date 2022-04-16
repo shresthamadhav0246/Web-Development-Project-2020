@@ -1,14 +1,52 @@
 header{
     text-align: center;
     font-weight: bold;
+    font-size: 5rem;
+    opacity: 0.5;
+    color:black;
 
 }
 .container{
     width: 100%;
     height:auto;
-
+    background-color: #a6ada8;
+}
+.container__content{
+    width:300px;
+    height:300px;
+}
+.module__list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: (2,1fr);
+    text-align: center;
+    grid-gap:7rem;
+    text-decoration: none;
 }
 img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height:300px;
+    object-fit: cover;
+    transition: transform 0.4sec linear;
+}
+.database:hover{
+    transform: scale(1.3);
+    opacity: 1;
+}
+.web__development:hover{
+    transform: scale(1.3);
+    opacity: 1;
+}.computer__communication:hover{
+    transform: scale(1.3);
+}.software__engineering:hover{
+    transform: scale(1.3);
+}.problem:hover{
+    transform: scale(1.3);
+}.computer__system:hover{
+    transform: scale(1.3);
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 600;
+
 }
