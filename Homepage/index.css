@@ -82,7 +82,6 @@
       opacity: 0.5;
       cursor: pointer;
       padding: 0.5rem 0.8rem 0 0;
-      size:30px;
     
     }
     .list{
@@ -90,13 +89,14 @@
     }
     .nav__item{
       padding:0.7rem 2rem;
-      font-size: 1.2rem;
+      font-size: 2.5rem;
       margin: 0;
+      text-align: center;
     }
     .nav__item>a{
       color:#d2d0db;
       text-decoration: none;
-      transition: color 0.3sec;
+      transition: color 0.3s;
     }
     .nav__item>a:hover{
       color:#fff;
@@ -134,17 +134,18 @@
  .contain__heading{
    padding-left: 1rem;
    color:#faf8f5;
+   font-size: 4rem;
  }
  .contain__second__heading{
    color:#faf8f5 ;
    font-size: 2rem;
-   padding-left: 2rem;
+   padding-left: 5rem;
    margin-top: 2rem;
  }
  .contain{
    font-size: 1.4rem;
    color: #b9c3cf;
-   padding-left: 1.9rem;
+   padding-left: 5.5rem;
    letter-spacing: 0.8px;
    margin-bottom: 7rem;
  }
@@ -194,7 +195,7 @@
   border:1px solid #ccc;
   border-radius: 40px;
   display:flex;
-  height:5rem;
+  height:6rem;
 
 }
 .search__domain{
@@ -203,6 +204,7 @@ border-radius: 40px;
 outline: 0;
 flex-grow: 1;
 padding-left: 3rem;
+height:5rem;
 }
 .btn__search{
   border: 1px solid #ccc;
@@ -219,6 +221,7 @@ i{
 }
  .domain__heading{
    text-align: center;
+   font-size: 3rem;
  }
  .domain__contain{
    text-align: center;
@@ -239,7 +242,7 @@ i{
    margin-top: 2rem;
 text-align: center;
  }
-.discribe::first-letter,{
+.discribe::first-letter{
   font-size: 7rem;
   font-weight: 600;
 }
@@ -322,10 +325,14 @@ text-align: center;
 }
 .footer__copyright{
   font-size: 1.7rem;
-  padding-bottom: 2.6rem;
+  padding-bottom: 4rem;
   color: #fff;
   opacity: 0.3;
   
+}
+.footerimg{
+  width: 150px;
+  height: 150px;
 }
 .footer__heading{
   font-size: 2rem;
