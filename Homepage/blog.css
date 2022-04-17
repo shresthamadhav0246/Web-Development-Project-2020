@@ -18,6 +18,7 @@
     grid-template-areas: " blog1 blog2 blog3"
                           " blog4 blog5 blog6";
                           grid-gap:40px;
+                          padding
   }
   
   .blog1 {
